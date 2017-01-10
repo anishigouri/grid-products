@@ -1,0 +1,28 @@
+.content {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.content img {
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.content div .thumbnail {
+    height: 400px;
+}
+
+.panel-item-product {
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.panel-item-product:hover {
+    background-color: #e8eaf6;
+}
+
+.page-header {
+    text-align: center;
+}
