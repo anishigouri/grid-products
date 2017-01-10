@@ -1,8 +1,3 @@
-.content {
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
 .content img {
     max-width:200px;
     max-height:200px;
@@ -20,9 +15,31 @@
 }
 
 .panel-item-product:hover {
-    background-color: #e8eaf6;
+    background-color: #4db6ac;
 }
 
 .page-header {
     text-align: center;
+}
+
+.description h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.price h4 {
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width:992px) {
+    .content {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
