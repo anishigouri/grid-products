@@ -7,6 +7,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
+  - [npm install](#npm-install)
+  - [bower install](#bower-install)
   - [npm start](#npm-start)
 
 ## Folder Structure
@@ -14,20 +16,27 @@ You can find the most recent version of this guide [here](https://github.com/fac
 After creation, your project should look like this:
 
 ```
-my-app/
+project-products/
   README.md
+  bower_components/
   node_modules/
   package.json
+  bower.json
   public/
     index.html
     favicon.ico
   src/
-    App.css
+    actions/
+        productActions.js
+    css/
+        style.css
+    reducers/
+        product.js
     App.js
-    App.test.js
-    index.css
+    GridProducts.js
     index.js
-    logo.svg
+    ItemProduct.js
+    rootReducer.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
@@ -49,6 +58,14 @@ They will not be included in the production build so you can use them for things
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the dependencies that are in the package.json in the node_modules folder
+
+### `bower install`
+
+Installs the dependencies that are in bower.json in the bower_components folder
 
 ### `npm start`
 
